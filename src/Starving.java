@@ -25,6 +25,6 @@ public class Starving extends CharacterDecorator {
      * @return double health of Starving character
      */
     public double getHealth() {
-        return tempCharacter.getHealth() - 5;
+        return tempCharacter.getHealth() - 2;
     }
 }

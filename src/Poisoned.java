@@ -26,6 +26,6 @@ public class Poisoned extends CharacterDecorator {
      * @return double health of Poisoned character
      */
     public double getHealth() {
-        return tempCharacter.getHealth() - 10;
+        return tempCharacter.getHealth() - 2;
     }
 }

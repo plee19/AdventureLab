@@ -28,5 +28,4 @@ public class Sword extends CharacterDecorator {
     public double getHealth() {
         return tempCharacter.getHealth() + 10;
     }
-
 }
